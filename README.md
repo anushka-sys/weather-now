@@ -10,13 +10,13 @@ https://weathercheker.netlify.app/
 
 
 ---
-## 📸 Project images
+## 📸 Project images  
 
-<img width="1905" height="850" alt="image" src="https://github.com/user-attachments/assets/b9a9d307-2895-4d14-b8ab-0fb672531c29" />
+<img width="800" height="640" alt="image" src="https://github.com/user-attachments/assets/b9a9d307-2895-4d14-b8ab-0fb672531c29" />
 
   ### Light Mode
 
-<img width="1887" height="860" alt="image" src="https://github.com/user-attachments/assets/5e92324c-a0d5-42bf-9376-1fa1faafc2dc" />
+<img width="800" height="640" alt="image" src="https://github.com/user-attachments/assets/5e92324c-a0d5-42bf-9376-1fa1faafc2dc" />
 
 ## 🚀 Features
 
