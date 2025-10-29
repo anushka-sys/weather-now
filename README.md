@@ -70,49 +70,55 @@ weather-app/
 |-- vite.config.ts
 |
 |-- src/
-| |-- api/
-| | |-- config.ts
-| | |-- types.ts
-| | |-- weather.ts
-| |
-| |-- hooks/
-| | |-- use-weather.ts
-| | |-- use-geolocation.ts
-| | |-- use-favorite.ts
-| | |-- use-local-storage.ts
-| | |-- use-search-history.ts
-| |
-| |-- components/
-| | |-- layout.tsx
-| | |-- header.tsx
-| | |-- city-search.tsx
-| | |-- current-weather.tsx
-| | |-- weather-details.tsx
-| | |-- weather-forecast.tsx
-| | |
-| | |-- ui/
-| | |-- alert.tsx
-| | |-- button.tsx
-| | |-- card.tsx
-| | |-- dialog.tsx
-| | |-- skeleton.tsx
-| | |-- tooltip.tsx
-| |
-| |-- context/
-| | |-- theme-provider.tsx
-| |
-| |-- lib/
-| | |-- utils.ts
-| |
-| |-- pages/
-| | |-- weather-dashboard.tsx
-| | |-- city-page.tsx
-| |
-| |-- App.tsx
-| |-- main.tsx
-| `-- index.css
+|   |-- api/
+|   |   |-- types.ts
+|   |   |-- weather.ts              # Handles all Open-Meteo API calls
+|   |
+|   |-- hooks/
+|   |   |-- use-weather.ts          # Fetches weather data using React Query
+|   |   |-- use-geolocation.ts      # Gets user's current location
+|   |   |-- use-favorite.ts         # Manages favorite cities
+|   |   |-- use-local-storage.ts    # Wrapper for localStorage
+|   |   |-- use-search-history.ts   # Keeps track of recent searches
+|   |
+|   |-- components/
+|   |   |-- layout.tsx
+|   |   |-- header.tsx
+|   |   |-- city-search.tsx
+|   |   |-- current-weather.tsx
+|   |   |-- weather-details.tsx
+|   |   |-- weather-forecast.tsx
+|   |   |-- hourly-temprature.tsx
+|   |   |-- loading-skeleton.tsx
+|   |   |-- favorite-button.tsx
+|   |   |-- favorite-cities.tsx
+|   |   |-- theme-toggle.tsx
+|   |   |
+|   |   |-- ui/
+|   |       |-- alert.tsx
+|   |       |-- button.tsx
+|   |       |-- card.tsx
+|   |       |-- dialog.tsx
+|   |       |-- skeleton.tsx
+|   |       |-- tooltip.tsx
+|   |    
+|   |
+|   |-- context/
+|   |   |-- theme-provider.tsx      # Manages light/dark theme
+|   |
+|   |-- lib/
+|   |   |-- utils.ts                # Helper functions
+|   |
+|   |-- pages/
+|   |   |-- weather-dashboard.tsx   # Main dashboard - combines all features
+|   |   |-- city-page.tsx           # Detailed view for a selected city
+|   |
+|   |-- App.tsx                     # App entry - routing, theme, and query setup
+|   |-- main.tsx                    # Renders root React app
+|   |-- index.css                   # Global styling
 |
 `-- README.md
+
 ```
 
 
