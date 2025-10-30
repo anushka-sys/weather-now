@@ -1,6 +1,7 @@
 # 🌦️ Weather Now — React Weather App
 
 **Weather Now** is a simple and elegant weather app built for **Jamie**, an outdoor enthusiast who wants to quickly check the current weather conditions for any city in the world.  
+
 The app fetches real-time weather data using the **Open-Meteo API** and presents it in a clean, responsive interface.
 
 ---
